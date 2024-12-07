@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Bubbles&display=swap');
+/* Основні кольори, що підходять для риболовлі */
+body {
+    background-color: #3DC2EC; /* Світло-блакитний фон для асоціації з водою */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #402E7A; /* Темно-синій колір для заголовку */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+.button {
+    background-color: #ffcc00; /* Жовтий колір кнопки для акценту */
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #4C3BCF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #ecf6ff;
+    text-align: center;
+}
+
+section.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    /* margin: 0 auto; */
+}
+
+img {
+    width: 60%;
+    height: 45%;
+}
+
+footer img {
+    width: 10%;
+    height: 10%;
+}
+
+iframe {
+    margin: 0-autor;
+}
+
+.novinka {
+    color: red;
+    font-family: Oswald;
+}
+
+h2 {
+    font-family: Oswald;
+}
+
+p {
+    font-family: Oswald;
+    font-size: medium;
+}
+
+.nav-link {
+    background-color: #1E0342 ;
+    padding: 4px;
+    border:#1E0342 4px ;
+    border-radius: 5px;
+}
+
+
+.nav-link:hover {
+    color: rgb(254, 254, 112);
+    transform: scale(1.3);
+}
+
+footer {
+    background-color: #402E7A;
+    color: white;
+}
+
+img {
+    border: #333 solid 3px;
+    border-radius: 10px;
+}
+
+header h1 {
+    border: #ffcc00;
+}
+
+.odguki {
+    margin: 0 auto;
+}
+
+.odguki img {
+    width: 50px;
+    height: 50px;
+    margin: 9px;
+}
+
+.rev{
+    display: flex;
+}
+
+.rev p {
+    border: #000 solid;
+    border-radius: 10px;
+}
+
+.article-but{
+    text-decoration: none;
+    color: purple;
+    padding: 5px 15px;
+    background-color: #ffcc00;
+    border-radius: 15px;
+    transition: 0.3s all;
+}
+
+.article-but:hover{
+    background-color: purple;
+    color: yellow;
+}
